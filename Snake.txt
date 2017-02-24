@@ -1,0 +1,3 @@
+The objective of this server-client game is to move the snake around the frame and eat the dots. The more dots you eat, the bigger the snake gets. There are two files: Server and Client.
+The Server file will be run on the webserver and its IP address will be shared to the clients. The client file will be run on client computers. 
+The server will receive the score from the clients and will store it in a dictionary. It will sort the result and will inform the client about the highest score in the game.
